@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.img-login {
+  background-image: url("../imagenes/login.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 800px;
+  border-radius: 10px;
+}
+
+.img-descripcion {
+  font-size: 1rem;
+}
+
+.form-descripcion {
+  font-size: 0.8rem;
+}
+
+.formulario input[name="usuario"]::placeholder,
+input[name="password"]::placeholder {
+  color: rgb(15, 6, 6);
+}
+input[name="usuario"] {
+  border-left: 5px solid rgb(10, 4, 4);
+}
+
+input[name="password"] {
+  border-left: 5px solid rgb(10, 4, 4);
+}
+
+.color {
+  background-color: #ffffff;
+}
+
+.colorContainer {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    45deg,
+    #ffffff 0%,
+    #000000 99%,
+    #808080 100%
+  );
+}
+
+.header {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    45deg,
+    #ffffff 0%,
+    #000000 95%,
+    #808080 100%
+  );
+}
+
+.letra {
+  font-size: 25px;
+}
+
+h1 {
+  font-weight: bolder;
+  color: white;
+  font-size: 50px;
+}
+
+.img-loginn {
+  background-image: url("../imagenes/gym.jpg");
+  height: 900px;
+  border-radius:10px;
+  
+}
+
+.imagen:hover {
+  filter: opacity(0.5);
+}
+
+footer {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    45deg,
+    #808080 0%,
+    #000000 99%,
+    #ffffff 100%
+  );
+}
+
+#facebook {
+  height: 60px;
+  background-color: white;
+  border-radius: 48px;
+}
+
+#instagram {
+  height: 60px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.footerLegales {
+  color: white;
+}
+
+#a {
+  text-decoration: none;
+}
+
+.text {
+  margin-top: 175px;
+}
+
+.novedad {
+  font-size: 20px;
+  border-radius: 100px;
+  background-color: #e9e3e3;
+  border: 0.5px solid black;
+}
+
+.logo {
+  border-radius: 20px;
+}
+
+h3 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cuerpo {
+  background-color: #d04158;
+  background-image: linear-gradient(
+    164deg,
+    #d04158 0%,
+    #000000 99%,
+    #ffffff 100%
+  );
+}
+
+/*formulario*/
+
+.contactoFoto {
+  background-image: url("../imagenes/contacto.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 900px;
+  border-radius: 10px;
+}
+
+.cuerpoFormulario {
+  margin-top: 180px;
+  margin-bottom: 10px;
+  
+}
+/*quitar flechas de input numero*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
