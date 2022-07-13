@@ -50,27 +50,27 @@
                 <form>
                     <div class="form-floating mb-3 rounded">
                       <label for="nombre" class="form-label">Nombre</label>
-                      <input type="text" class="form-control p-4" id="nombre" >
+                      <input type="text" class="form-control p-4" id="nombre" required maxlength="10" minlength="3" >
                     </div>
                     <div class="mb-3">
                       <label for="apellido" class="form-label">Apellido</label>
-                      <input type="text" class="form-control p-4" id="apellido">
+                      <input type="text" class="form-control p-4" id="apellido" required maxlength="10" minlength="3">
                     </div>
                     <div class="mb-3">
                         <label for="dni" class="form-label">DNI</label>
-                        <input type="number" class="form-control p-4" id="dni">
+                        <input type="text" class="form-control p-4" id="dni" minlength="2" maxlength="8" required>
                     </div>
                     <div class="mb-3">
                         <label for="telefono" class="form-label">Teléfono</label>
-                        <input type="number" class="form-control p-4" id="telefono">
+                        <input type="number" class="form-control p-4" id="telefono" required>
                     </div>
                     <div class="mb-3">
-                        <label for="telefono" class="form-label">Correo</label>
-                        <input type="email" class="form-control p-4" id="telefono">
+                        <label for="Correo" class="form-label">Correo</label>
+                        <input type="email" class="form-control p-4" id="telefono" required>
                     </div>
                     <div class="mb-3">
-                        <label for="telefono" class="form-label">Motivo</label>
-                        <select name="" id="" class="form-control p-4">
+                        <label for="motivo" class="form-label">Motivo</label>
+                        <select name="" id="" class="form-control p-4" required>
                             <option value=""></option>
                             <option value="Costo y Planes - Musculación">Costo y Planes - Musculación</option>
                             <option value="Costo y Planes - Funcional">Costo y Planes - Funcional</option>
